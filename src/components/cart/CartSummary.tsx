@@ -71,10 +71,28 @@ export default function CartSummary() {
       <div className="mt-6">
         <h3 className="font-medium mb-2">We Accept</h3>
         <div className="flex gap-2">
-          <div className="h-8 w-12 rounded bg-gray-200"></div>
-          <div className="h-8 w-12 rounded bg-gray-200"></div>
-          <div className="h-8 w-12 rounded bg-gray-200"></div>
-          <div className="h-8 w-12 rounded bg-gray-200"></div>
+          <div className="h-8 w-12 rounded bg-gray-100 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-gray-700">
+              <rect width="20" height="14" x="2" y="5" rx="2" />
+              <line x1="2" x2="22" y1="10" y2="10" />
+            </svg>
+          </div>
+          <div className="h-8 w-12 rounded bg-gray-100 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-gray-700">
+              <path d="M12 2v20M2 5h20M5.45 15.95a9 9 0 1 0 13.1-13.1" />
+            </svg>
+          </div>
+          <div className="h-8 w-12 rounded bg-gray-100 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-gray-700">
+              <path d="M12 7c-1.93 0-3.5-1.57-3.5-3.5S10.07 0 12 0c1.93 0 3.5 1.57 3.5 3.5S13.93 7 12 7Z" />
+              <path d="M20 21c0-4.41-3.59-8-8-8s-8 3.59-8 8h16Z" />
+            </svg>
+          </div>
+          <div className="h-8 w-12 rounded bg-gray-100 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-gray-700">
+              <path d="M7 20h10M10 20c0-4.4 1.6-8 3-8.5-1 0-3 0-3-6.5 0-4.4 2.6-5 4-5 1.4 0 4 .6 4 5 0 6.5-2 6.5-3 6.5 1.4.5 3 4.1 3 8.5M5 13h14" />
+            </svg>
+          </div>
         </div>
       </div>
     </div>

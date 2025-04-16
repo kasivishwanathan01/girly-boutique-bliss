@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -8,6 +9,8 @@ import NotFound from "./pages/NotFound";
 import ShopPage from "./pages/shop/ShopPage";
 import ProductDetailPage from "./pages/shop/ProductDetailPage";
 import CartPage from "./pages/cart/CartPage";
+import CheckoutPage from "./pages/checkout/CheckoutPage";
+import SuccessPage from "./pages/checkout/SuccessPage";
 import WishlistPage from "./pages/wishlist/WishlistPage";
 import CategoryPage from "./pages/category/CategoryPage";
 import { CartProvider } from "./context/CartContext";
@@ -28,6 +31,8 @@ const App = () => (
               <Route path="/shop" element={<ShopPage />} />
               <Route path="/product/:id" element={<ProductDetailPage />} />
               <Route path="/cart" element={<CartPage />} />
+              <Route path="/checkout" element={<CheckoutPage />} />
+              <Route path="/checkout/success" element={<SuccessPage />} />
               <Route path="/wishlist" element={<WishlistPage />} />
               <Route path="/category/:category" element={<CategoryPage />} />
               <Route path="*" element={<NotFound />} />
